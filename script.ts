@@ -110,7 +110,7 @@ function generateResume() {
 
 
   const username = name ? name.toLowerCase().replace(/\s+/g, '-') : 'user';  //Generate username from the name
-  const baseUrl = 'http://127.0.0.1:5501/index.html'; // Your Vercel deployment URL
+  const baseUrl = 'https://hackathon-milestone-5-ruddy.vercel.app/'; // Your Vercel deployment URL
   const uniqueResumeUrl = `${baseUrl}?/${username}`; // Create unique URL      
 
 //-----------------------------------------------------------Set the resume link in the DOM
